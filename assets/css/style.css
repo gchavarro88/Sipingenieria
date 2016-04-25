@@ -445,7 +445,7 @@ header.main-header.shown{
 			position: relative;
 		}
 		.menu-info .footer:after{
-			content: "S&C";
+			content: "Šîp";
 			font-family: "Rubik One", sans-serif;
 			font-size: 2em;
                         font-weight: normal;

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>.:Fatcon Manager:.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+    </head>
+    <body style="background: #000;margin:0px 0px 0px 0px; ">
+        <iframe src="http://52.27.212.173:8082/FATCONManagerMobile/" id="iframeWeb" 
+                style="width: 100%; overflow: auto;  height: 100%; border: 0px solid;" >
+            
+        </iframe>
+        
+        <script type="text/javascript">
+            $(document).ready(function(){ 
+                //Esta linea obtiene la altura de la pantalla y se la aplica al atributo heidht de la clase CSS que se llama div_altura_pantalla.
+            $("#iframeWeb").css("height",(screen.height -90));
+                
+            });
+        </script>
+    </body>
+</html>
